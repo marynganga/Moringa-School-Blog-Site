@@ -1,1 +1,11 @@
-{{outlet}}
+<div class="well">
+	{{add-post savePost='savePost'}}
+</div>
+
+<div class="well">
+	<ul>
+		{{#each model as |post|}}
+			{{posts-list}}
+		{{/each}}
+	</ul>
+</div>
