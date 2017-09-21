@@ -18,6 +18,15 @@ module.exports = function(environment) {
       }
     },
 
+    firebase: {
+      apiKey: "AIzaSyAsiNxnTMxAyByVCm4a2u6Xv1qXY7RUnCE",
+      authDomain: "moringa-school-blog-site.firebaseapp.com",
+      databaseURL: "https://moringa-school-blog-site.firebaseio.com",
+      projectId: "moringa-school-blog-site",
+      storageBucket: "",
+      messagingSenderId: "951477789568",
+    },
+
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created

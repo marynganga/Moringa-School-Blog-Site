@@ -1,0 +1,16 @@
+{
+	"posts":[
+		{
+			"author": "Khalid Hashi",
+			"heading": "My prep experience in Moringa School",
+			"content": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.", 
+			"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcHpDLX8EvYE4hjudz5JYeRUN3BrerWjgTVnk38Xobz0BhNY5epA"
+		},
+		{
+			"author": "Mary Ng'ang'a",
+			"heading": "My core experience in Moringa School",
+			"content": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti.",
+			"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTycW10yZ-_sZJLMeNlDdHguuzhGIrKBDIASNbV9Pf_XfL2m8sx2Q"
+		}	
+	]
+}
