@@ -1,0 +1,15 @@
+<div class="well">
+	<div class="well">
+		<h5>Written by: {{post.author}}</h5>
+	</div>
+	<img src={{post.image}} alt="Post Image" width="500px" height="400px">
+	<div class="well">
+		{{post.content}} 
+	</div>
+
+	<div class="well">
+		{{update-post}}
+		<button {{action 'deletePost'}} class="btn btn-danger">Delete</button>
+	</div>
+</div>
+

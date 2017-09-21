@@ -1,0 +1,18 @@
+<div class="panel">
+	{{#link-to 'post' post.id}}
+		<div class="panel-heading">
+			<h4>{{post.heading}}</h4>
+		</div>
+		<hr />
+		<div class="panel-body">
+			<div class="row no-gutters">
+				<div class="col-md-4">
+					<img src={{post.image}} alt="Post Image" width="200px" height="200px"> 
+				</div>
+				<div class="col-md-8">
+					{{post.content}}
+				</div>
+			</div>
+		</div>
+	{{/link-to}}
+</div>

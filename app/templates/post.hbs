@@ -1,1 +1,11 @@
-{{outlet}}
+<div class="jumbotron">
+<div class="well">
+	{{#link-to 'index'}}
+		<button class="btn btn-info">&larr; Go Back </button>
+	{{/link-to}}
+</div>
+<h3>{{model.heading}}</h3>
+
+{{post-details post=model}}
+
+</div>
