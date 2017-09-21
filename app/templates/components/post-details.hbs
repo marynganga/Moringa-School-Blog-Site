@@ -8,8 +8,7 @@
 	</div>
 
 	<div class="well">
-		{{update-post}}
-		<button {{action 'deletePost'}} class="btn btn-danger">Delete</button>
+		{{update-post post=post saveUpdatedPost='saveUpdatedPost'}}
+		<button {{action 'deletePost' post}} class="btn btn-danger">Delete Post</button>
 	</div>
 </div>
-
